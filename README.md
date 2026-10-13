@@ -6,10 +6,10 @@ An automated Python log parser and anomaly detector.
 ## Features:
 
 - Parses structured authentication logs
-- Detectts repeated failed login attempts
+- Detects repeated failed login attempts
 - Flags successful logins during configured unusual hours
 - Generates JSON security reports
-- Includes automated uniot tests
+- Includes automated unit tests
 
 ## Requirements:
 
@@ -27,9 +27,9 @@ Run the tests:
 
 ## Sample data
 
-The project includes sdynthetic log data for safe testing.
+The project includes synthetic log data for safe testing.
 
 ## Limitations
 
 This is an educational prototype. Alerts indicate potentially
-suspicious activitty and do not prove an attack occurred.
+suspicious activity and do not prove an attack occurred.
